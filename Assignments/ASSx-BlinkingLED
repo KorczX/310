@@ -1,0 +1,5 @@
+ORG 	   0x00
+	MOVLW        0X0
+	MOVFF        W,STATUS
+	MOVLW        0X80
+	SUBLW        0X1   	;subtracs W from 0x1
